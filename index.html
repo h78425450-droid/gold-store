@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گالری طلای لوکس | Habibeh Gold</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">LUXURY GOLD</a>
+            <button class="cart-icon-container" id="cart-icon">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>گالری طلا و جواهرات</h1>
+        <p>تجربه‌ای متفاوت از زیبایی و درخشش با طراحی‌های منحصر به فرد</p>
+    </section>
+
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">همه محصولات</button>
+        <button class="filter-btn" data-filter="ring">انگشتر</button>
+        <button class="filter-btn" data-filter="necklace">گردنبند</button>
+        <button class="filter-btn" data-filter="earrings">گوشواره</button>
+    </div>
+
+    <main class="products-section">
+        <div class="products-grid" id="products-grid">
+            <!-- محصولات توسط JS اضافه می‌شوند -->
+        </div>
+    </main>
+
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h2>سبد خرید</h2>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>جمع کل:</span>
+                <span id="total-price">۰ تومان</span>
+            </div>
+            <a href="#" class="checkout-btn" id="whatsapp-order">ثبت سفارش در واتساپ</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; ۲۰۲۴ گالری طلای لوکس. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
